@@ -1,0 +1,136 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right,rgb(235, 0, 0),rgb(82, 4, 4));
+}
+
+.write
+{
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]
+{
+    position: relative;
+    width: 600px;
+    height: 40px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    padding: 0px 15px;
+}
+
+.plusBtn
+{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 145px;
+    border-radius: 5px;
+    right: 25%;
+}
+
+.write
+{
+    position: relative;
+}
+
+select
+{
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+}
+.select
+{
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.write i
+{
+    color: red;
+    font-size: 1.5em;
+}
+
+.list
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission
+{
+    width: 55%;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+}
+
+.trash
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    right: -0.2em;
+    background-color: rgb(189, 8, 8);
+}
+
+.trash i
+{
+    color: white;
+    font-size: 1.40em;
+}
+
+.comp
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    right: -50px;
+    background-color: green;
+    border-end-end-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.comp i
+{
+    font-size: 1.40em;
+    color: white;
+}
+
+.mission h3
+{
+    margin: 8px 31px;
+}
+
