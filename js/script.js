@@ -65,9 +65,6 @@ function deleteFunc (event)
     {
         if(deleteId === document.querySelectorAll('.trash')[i].id)
         {
-            list[i].animate[{
-                opacity = "1"
-            }]
             list[i].remove();
             break;
         }
